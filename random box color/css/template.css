@@ -1,0 +1,76 @@
+/* ? media queries to edit css responsiveness */
+
+/* mobile */
+/* @media (min-width: 320px) {
+ 
+} */
+
+/* landscape mobile */
+/* @media (min-width: 568px) {
+
+} */
+
+/* tablet */
+/*@media (min-width: 768px) {
+
+} */
+
+/* desktop */
+/* @media (min-width: 1024px) {
+ 
+} */
+
+
+/* ? Boxes content */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  /* border: 2px solid; */
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* ? Separates content */
+.section {
+  margin-bottom: 2rem;
+}
+
+/* !controls responsive system */
+
+/* mobile */
+@media (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+/* landscape mobile */
+@media (min-width: 568px) {
+  .container {
+    max-width: 568px;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* desktop */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
